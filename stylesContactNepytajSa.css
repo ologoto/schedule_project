@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+body {
+    background-color: deeppink;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1b1b;
+}
+
+li,a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ff0000;
+    text-decoration: none;
+    background-color: #1e1b1b;
+    transition: 0.5s;
+}
+
+contact-nav {
+    background-color: #1e1b1b;
+}
+
+.contact-nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1e1b1b;
+}
+
+
+.contact-nav :hover {
+    color: blue;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+
+.contact-paragraph {
+    display: flex;
+    margin-top: 790px;
+    margin-left: 0px;
+    padding-left: 800px;
+    color: red;
+    background-color: #1e1b1b;
+}
+
+.contact-paragraph a {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    background-color: #1e1b1b;
+    padding-top: 3px;
+    transition: 0.5s;
+}
+
+.contact-links :hover {
+    color: blue;
+}
+
+.contact-paragraph a {
+    color: blue;
+}
+
+

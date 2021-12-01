@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+body {
+    background-colorbcolor: deeppink;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: blue;
+    background-color: deeppink;
+    text-decoration: none;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+
+}
+
+
+.mit-license {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+.license-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.license-pasik {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.license-back :hover {
+    color: blue;
+}
+
+.license-back {
+    background-color: deeppink;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: 30px;
+}

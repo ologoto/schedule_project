@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+
+body {
+    background-color: deeppink;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+}
+
+li,a,h {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #e11123;
+    text-decoration: none;
+    background-color: #1e1b1b;
+    transition: 0.5s;
+
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: blue;
+    background-color: deeppink;
+    text-decoration: none;
+
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1e1b1b ;
+
+}
+
+.navlinks :hover{
+    color: blue;
+
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    background-color: grey;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+.button :hover {
+    color: #ff0000;
+    background-color: blue;
+    display: flex;
+    justify-content: right;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 800px;
+    margin-left: 1800px;
+    background-color: deeppink;
+}
+
+
+
+.about-button :hover {
+    color: #ff0000;
+    background-color: blue;
+}
+
+.about-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 800px;
+    margin-left: 1800px;
+
+}
+
+
+.about-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1e1b1b;
+}
+
+
+.about-nav :hover {
+    color: blue;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    margin-top: -810px;
+    margin-left: -1700px;
+    background-color: deeppink;
+
+}
+
+OwO {
+    background-color: red;
+}
+
+.login-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-color: #1e1b1b;
+}
+
+.login-button {
+    color: red;
+    margin-top: 800px;
+    margin-left: 1800px;
+}
+
+.login-button :hover {
+    color: blue;
+    background-color: red;
+}
+
+.contact-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1e1b1b;
+}
+
+.contact-nav :hover {
+    color: blue;
+}
+
+.mit-license {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+.license-top {
+   display: flex;
+   justify-content: center;
+    margin-top: 25px;
+}
+
+.license-pasik {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.license-back :hover {
+    color: blue;
+}
+
+.license-back a {
+    background-color: deeppink;
+
+}
+
+
+.logininputs {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
