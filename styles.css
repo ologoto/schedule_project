@@ -12,6 +12,7 @@ body {
     background-color: deeppink;
 }
 
+
 li,a,h {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -146,39 +147,14 @@ OwO {
     color: blue;
 }
 
-.mit-license {
-    display: flex;
-    margin-top: 70px;
-    justify-content: center;
-    text-align: center;
-}
-
-.license-top {
-   display: flex;
-   justify-content: center;
-    margin-top: 25px;
-}
-
-.license-pasik {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.license-back :hover {
-    color: blue;
-}
-
-.license-back a {
-    background-color: deeppink;
-
-}
-
-
 .logininputs {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
+video {
+    width: 500px;
+    height: 500px;
+}
 
